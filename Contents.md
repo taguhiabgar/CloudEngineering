@@ -1,8 +1,31 @@
+- [[#Session 1 (April 21)]]
+- [[#Session 2 (April 26)]]
+- [[#Session 3 (April 28)]]
+- [[#Session 4 (May 5)]]
+- [[#Session 5 (May 10)]]
+- [[#Session 6 (May 12)]]
+- [[#Session 7 (May 17)]]
+- [[#Session 8 (May 19)]]
+- [[#Session 9 (May 26)]]
+- [[#Session 10 - Cybersecurity Guest Lecture (May 31)]]
+- [[#Session 11 (June 2)]]
+- [[#Session 12 (June 7)]]
+- [[#Session 13 (June 9)]]
+- [[#Session 14 (June 14)]]
+- [[#Session 15 (June 16)]]
+- [[#Session 16 (June 21)]]
+- [[#Session 17 (June 23)]]
+- [[#Session 18 (June 28)]]
+- [[#Session 19 (June 30)]]
+- [[#Session 20 (July 5)]]
+- [[#Session 21 (July 7)]]
+- [[#Session 22 (July 14)]]
+
 # Video Recordings Folder
 
 https://drive.google.com/drive/folders/1TZA19-jw7Cdku2dcPKSKPGKxglg5mRbV?usp=drive_link
 
-# Session 1 (April 23)
+# Session 1 (April 21)
 
 **Slides:**
 - [https://docs.google.com/presentation/d/1bU7Nv2eYI3Sv75X3FuW1tfIZXJ9z_E4W0KnniUjnQo0/edit?usp=sharing](https://docs.google.com/presentation/d/1bU7Nv2eYI3Sv75X3FuW1tfIZXJ9z_E4W0KnniUjnQo0/edit?usp=sharing)
@@ -12,7 +35,7 @@ Download one of the ISO files:
 - [https://www.debian.org/](https://www.debian.org/) - download
 - [https://ubuntu.com/download/server](https://ubuntu.com/download/server) - download
 
-# Session 2 (April 27)
+# Session 2 (April 26)
 
 **Slides:**
 - [Iron to Cloud](https://docs.google.com/presentation/d/1TthrA9QHlS8YTxOT7m_X0cEY5hJav1UyE7YO1T0JHNc/edit?usp=sharing)
@@ -25,7 +48,7 @@ Download one of the ISO files:
 - practice [https://www.digitalocean.com/cdn-cgi/image/quality=75,width=1920/https://www.digitaloce[…].com%2Ftutorials%2Flinux%2Ftop-50-linux-commands.png&raw=1](https://www.digitalocean.com/cdn-cgi/image/quality=75,width=1920/https://www.digitalocean.com/api/static-content/v1/images?src=https%3A%2F%2Fdoimages.nyc3.cdn.digitaloceanspaces.com%2Ftutorials%2Flinux%2Ftop-50-linux-commands.png&raw=1) first 15-20 commands and their switches
 - check the [https://www.youtube.com/watch?v=CLh2ACdXNbc](https://www.youtube.com/watch?v=CLh2ACdXNbc) video by Nana starting from 2:25 min, demonstrating some commands we are using frequently
 
-# Session 3 (May 2)
+# Session 3 (April 28)
 
 **Slides:**
 - [Linux package management, first AWS EC2](https://docs.google.com/presentation/d/1EjauPJDDzTbqwmGoK7iqGl9EIu1HEZViqEaHKCkpMSI/edit?usp=sharing)
@@ -35,13 +58,13 @@ Download one of the ISO files:
 - [https://www.youtube.com/watch?v=1kicKTbK768](https://www.youtube.com/watch?v=1kicKTbK768) - starting from 2:45 min. usage of apt command and packages
 - new commands to practice - top, free, htop (install if missing), df, du
 
-# Session 5 (May 8)
+# Session 4 (May 5)
 
 **Study:**
 - [https://www.youtube.com/watch?v=PNhq_4d-5ek](https://www.youtube.com/watch?v=PNhq_4d-5ek) - bash scripting
 - [https://www.youtube.com/watch?v=y7DDzU0KGxw](https://www.youtube.com/watch?v=y7DDzU0KGxw) - ec2 backup/restore
 
-# Session 6 (May 11)
+# Session 5 (May 10)
   
 **Slides:**
 - [Storage types, LAMP](https://docs.google.com/presentation/d/1vXgW3W_f09j5pIKYQpjB_JYVPPlPiDzHL-fhtVWnDgk/edit?usp=sharing)
@@ -60,7 +83,7 @@ Download one of the ISO files:
 - change port of web server to 8080, restart the nginx and assure 8080 port is in listen state instead of 80
 - hint: use `apt` to install `ngnx`, `ss` or `netstat` commands to check ports , `vim` or `nano` to modify config files, `systemctl` to restart service
 
-# Session 7 (May 15)
+# Session 6 (May 12)
 
 **Slides:**
 - [The Internet's GPS: Understanding DNS](https://docs.google.com/presentation/d/1By_IUNFh90_Cykd3gXQOOpp_lfJwGn1nc8vnIHBY6ZE/edit?usp=sharing)
@@ -75,7 +98,7 @@ Download one of the ISO files:
 - create a file with several lines
 - print the content of that file in reverse order using command chaining - last line to first place, pre-last line to 2nd place, etc....first line from the file to last place in print
 
-# Session 8 (May 18)
+# Session 7 (May 17)
 
 **Slides:**
 - [Database Foundations](https://docs.google.com/presentation/d/1oIam6JrUte-4hNLHMRYB23vbS0kSiaO5hO67a9-nwP4/edit?usp=sharing)
@@ -92,22 +115,14 @@ Download one of the ISO files:
         - difficult part: create db , db user, configure them into wordpress wp-config.php, configure web server
     - ideal case and goal, is to use that script in EC2 user data and start ready made wordpress server in AWS
 
-# Session 9 - Cybersecurity Guest Lecture
-
-Guest Lecturer: [Արամ Սիմոնյան](https://www.linkedin.com/in/aram-simonyan-work/)
-
-**Slides:**
-- [[CIAP_Security_Lesson.pptx]]
-
-# Session 9 (May 21)
+# Session 8 (May 19)
 
 **Study:**
 - [https://www.youtube.com/watch?v=19WOD84JFxA](https://www.youtube.com/watch?v=19WOD84JFxA) - check on linux user management
 - [https://www.youtube.com/watch?v=po8ZFG0Xc4Q](https://www.youtube.com/watch?v=po8ZFG0Xc4Q) - IP addresses
 - [https://www.youtube.com/watch?v=IIicPE38O-s](https://www.youtube.com/watch?v=IIicPE38O-s) - working with ping
 - all the previous homeworks are also valid (including scripting)
-
-# Session 10 (May 28)
+# Session 9 (May 26)
 
 **Slides:**
 - [IP / format](https://docs.google.com/presentation/d/1EUkaVEeOPJpok0P6yMwzqbFpKsID54kmo8iFLON2Frg/edit?usp=sharing)
@@ -117,7 +132,16 @@ Guest Lecturer: [Արամ Սիմոնյան](https://www.linkedin.com/in/aram-sim
 - [https://www.youtube.com/watch?v=e6-TaH5bkjo](https://www.youtube.com/watch?v=e6-TaH5bkjo)
 - and progress with scripting (wp deployment) making it robust and pass to ec2 user-data to have wp installed with a single step
 
-# Session 11 (June 4)
+# Session 10 - Cybersecurity Guest Lecture (May 31)
+
+Guest Lecturer: [Արամ Սիմոնյան](https://www.linkedin.com/in/aram-simonyan-work/)
+
+**Slides:**
+- [[CIAP_Security_Lesson.pptx]]
+
+
+
+# Session 11 (June 2)
 
 **Slides:**
 - [IP / Subnetmask](https://docs.google.com/presentation/d/1KsxgH3rzZzke9kBFgjKfed8fBBOwrfKI-W6OD-2NeBc/edit?usp=sharing)
@@ -143,7 +167,7 @@ Guest Lecturer: [Արամ Սիմոնյան](https://www.linkedin.com/in/aram-sim
 	- [https://www.youtube.com/watch?v=HOaINcUTSg0](https://www.youtube.com/watch?v=HOaINcUTSg0) - How To Write Bash Scripts In Linux - Complete Guide (Part 15 - CRON Jobs)
 	- Well structured scripting guide - [https://www.youtube.com/playlist?list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w](https://www.youtube.com/playlist?list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w)  
 
-# Session 12 (June 8)
+# Session 12 (June 7)
 
 **Slides:**
 - [OSI, TCP/IP, Layer 4](https://docs.google.com/presentation/d/1j4TNN-TmgQgNazc_AB_hXwHlXbid8qczC6XndsvpBgs/edit?usp=sharing)
@@ -166,7 +190,7 @@ Guest Lecturer: [Արամ Սիմոնյան](https://www.linkedin.com/in/aram-sim
 1. start a virtualbox VM and/or aws ec2 instance, and try to run some basic commands through the ansible. remember ansible is working via SSH
 2. launch 3 aws ec2 instances, use one of those ec2 instance as a centralized configuration management host, install ansible and deploy some basic thing on other 2 instances.
 
-# Session 13 (June 11)
+# Session 13 (June 9)
 
 **Slides:**
 - [Data encapsulation / decapsulation](https://docs.google.com/presentation/d/1157nSu_PlF6zZcBDcxCfuptlLpr9ZMFLgcQSV0VOEWE/edit?usp=sharing)
@@ -182,7 +206,7 @@ Guest Lecturer: [Արամ Սիմոնյան](https://www.linkedin.com/in/aram-sim
 - [Routing Tables | CCNA - Explained](https://www.youtube.com/watch?v=CGmTvukObOw)
 - [What is a Firewall?](https://www.youtube.com/watch?v=kDEX1HXybrU)
 
-# Session 14 (June 15)
+# Session 14 (June 14)
 
 **Slides:**
 - [System Scaling Strategies](https://docs.google.com/presentation/d/1kzvLxa7jg-Cq0biM2_t2n9KXxA75s0s9vtwguutK1DM/edit?usp=sharing)
@@ -200,7 +224,7 @@ Guest Lecturer: [Արամ Սիմոնյան](https://www.linkedin.com/in/aram-sim
 
 NOTE: health check should be green (healthy)
 
-# Session 16 (June 18)
+# Session 15 (June 16)
 
 **Slides:**
 - [Forward and Reverse Proxies](https://docs.google.com/presentation/d/1thWv63xospaJ9pJCV8FV3Hiu4OAxqN4pikbUa4vr2pw/edit?usp=sharing)
@@ -219,7 +243,7 @@ NOTE: health check should be green (healthy)
 - create an ec2 instance (B) in private subnet with no public IP
 - connect from your laptop to instance A, and from instance A to instance B via SSH
 
-# Session 17 (June 22)
+# Session 16 (June 21)
 
 **Study:**
 - [[short] AWS Load Balancers explained but make it actually make sense](https://www.youtube.com/shorts/mbtojfukpDk) by KodeKloud
@@ -235,7 +259,7 @@ NOTE: health check should be green (healthy)
 - use bastion host as a deployment server running ansible
 - deploy reverse proxy and web servers with a single ansible playbook
 
-# Session 18 (June 25)
+# Session 17 (June 23)
 
 **Slides:**
 - [Cloud Shared responsibility model, architectures](https://docs.google.com/presentation/d/1urGI5ZszeiXJXKdxZwH8qy4ff4NEtrtmhH3z_fo0ihI/edit?usp=sharing)
@@ -254,7 +278,7 @@ NOTE: health check should be green (healthy)
 - create new ASG, target groups and application load balancer using that launch template
 - assure health checking is successfull using http
 
-# Session 19 (July 2)
+# Session 18 (June 28)
 
 **Slides:**
 - [IAM user, group, policy](https://docs.google.com/presentation/d/1p5Pn71Bx63KvAwJHdBkaNd8vu9lxOCbJcMGwsZjpI4w/edit?usp=sharing)
@@ -278,7 +302,7 @@ NOTE: health check should be green (healthy)
 3. install AWS CLI locally and create a NAT GW using access keys of newly create user (1)
 4. share IAM policy created by your and AWS CLI used by you under this post in the thread
 
-# Session 20
+# Session 19 (June 30)
 
 **Slides:**
 - [AWS CLI, API, SDK](https://docs.google.com/presentation/d/1ad5y2iHapcglI9SfpoCu9aCBkl7Mg5ro09VG2IaW5sQ/edit?usp=sharing)
@@ -456,7 +480,7 @@ echo "🎉 Deployment Sync Complete!"
 echo "🔗 Access your load-balanced app here: http://$ALB_DNS"
 echo "--------------------------------------------------------"
 ```
-# Session 21 (July 6)
+# Session 20 (July 5)
 
 **Slides:**
 - [AWS polices - identity-based, resource-based](https://docs.google.com/presentation/d/1a7UY0E5t1fgGd1QWqyxjc8I0hXZD5PrpnCWmB4CKh2c/edit?usp=sharing)
@@ -481,7 +505,7 @@ echo "--------------------------------------------------------"
 2. be sure both EC2 instances can mount the same EFS drive and write files into it
 3. be sure S3 bucket allows read access from both EC2 instances, and write access only from one of that 2 EC2 instances.
 
-# Session 22 (July 9)
+# Session 21 (July 7)
 
 **Study:**
 - [Amazon RDS vs. EC2: The Ultimate AWS Database Comparison](https://www.youtube.com/watch?v=6LksnFe6rp4)
@@ -492,7 +516,7 @@ echo "--------------------------------------------------------"
 - ec2 instance should be in public subnet and can be with public IP, RDS instance - in private subnet
 - wordpress should be well up and running
 
-# Session 23 (July 14)
+# Session 22 (July 14)
 
 **Slides:**
 - [AWS RDS and Aurora](https://docs.google.com/presentation/d/1CBLkMsxCDEF_o9DV1F42b4kiGB1sSijMGTF6xCRyvpQ/edit?usp=sharing)
@@ -549,6 +573,7 @@ Under Configure group size and scaling policies:
 ```
 - verify service accessibility via LB, web interface should show the hostname, and based on that hostname you can check if different instance types are being utilized
 
+# Homework - Session 23 (July xxx)
 # Homework - Session 24 (July xxx)
 # Homework - Session 25
 # Homework - Session 26
